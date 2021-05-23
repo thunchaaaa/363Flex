@@ -3,17 +3,70 @@
     width: 100%;
     position: relative;
 }
-.้container h1 {
+.container h1 {
     text-align:center;
-    color:#BB0000;
-    font-size: 75px;
+    color: #FF0066	;
+    font-size: 55px;
     padding-top: 30px;
     padding-left: 5%;
+}
+.container h2 {
+    text-align:center;
+    color:  #8B4513;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 5%;
+    line-height: 5px;
+}
+.container h3 {
+    text-align:center;
+    color:  #8B4513	;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 5%;
+    line-height: 5px;
+}
+.container h4 {
+    text-align:center;
+    color:  #8B4513;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 5%;
+    line-height: 5px;
+}
+.container h5 {
+    text-align:center;
+    color:  #8B4513;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 5%;
+    line-height: 5px;
+}
+.container h6 {
+    text-align:center;
+    color:  #8B4513;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 5%;
+    line-height: 5px;
+}
+.container h7 {
+    text-align:center;
+    color:  #8B4513;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30%;
+    line-height: 5px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
 }
 .navbar {
     margin: auto;
     width: 90%;
-    padding: 10px;
+    padding: 2px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,15 +80,24 @@
 .navbar ul li a {
     font-size: 17px;
     text-decoration: none;
-    color: #CD853F;
+    color: #8B4513;
 }
 .button
 {
     align-items: center;
-    padding-top: 0.5%;
-    padding-left: 25%;
+    padding-top: 0%;
+    padding-left: 10%;
 }
-
+.button .btn.btn-secondary {
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #FFF0F5;
+}
+.button .form-control.form-control-borderless {
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #FFFAFA;
+}
 .flex-container {
     padding-left: 1.5%;
     display: flex;
@@ -51,12 +113,17 @@
     height: 300px;
     padding:0%
 }
+.box p {
+    color: #8B4513;
+}
 .footer{
     margin-top:25px;
     font-size:12px;
     padding-left: 2%;
     padding-top: 1%;
+    padding-bottom: 1%;
     text-align: center;
 }
+
 
 
